@@ -1,0 +1,88 @@
+transaction_id,transaction_date,accounting_period,entity,transaction_type,document_number,vendor_name,description,amount,running_balance,prepaid_item_id
+TXN-0001,2025-10-15,Oct 2025,US Corp,Bill,INV-9000,AWS,Prepaid AWS,6000.0,6000.0,US-PP-001
+TXN-0002,2025-10-15,Oct 2025,US Corp,Journal Entry,JE-US-001-1,AWS,Amortization - AWS prepaid,-1000.0,5000.0,US-PP-001
+TXN-0003,2025-11-15,Nov 2025,US Corp,Journal Entry,JE-US-001-2,AWS,Amortization - AWS prepaid,-1000.0,4000.0,US-PP-001
+TXN-0004,2025-12-15,Dec 2025,US Corp,Journal Entry,JE-US-001-3,AWS,Amortization - AWS prepaid,-1000.0,3000.0,US-PP-001
+TXN-0005,2026-01-15,Jan 2026,US Corp,Journal Entry,JE-US-001-4,AWS,Amortization - AWS prepaid,-1000.0,2000.0,US-PP-001
+TXN-0006,2026-02-15,Feb 2026,US Corp,Journal Entry,JE-US-001-5,AWS,Amortization - AWS prepaid,-1000.0,1000.0,US-PP-001
+TXN-0007,2026-03-15,Mar 2026,US Corp,Journal Entry,JE-US-001-6,AWS,Amortization - AWS prepaid,-1000.0,0.0,US-PP-001
+TXN-0008,2025-10-15,Oct 2025,US Corp,Bill,INV-9001,Google Cloud,Prepaid Google Cloud,6000.0,6000.0,US-PP-002
+TXN-0009,2025-10-15,Oct 2025,US Corp,Journal Entry,JE-US-002-1,Google Cloud,Amortization - Google Cloud prepaid,-1000.0,5000.0,US-PP-002
+TXN-0010,2025-11-15,Nov 2025,US Corp,Journal Entry,JE-US-002-2,Google Cloud,Amortization - Google Cloud prepaid,-1000.0,4000.0,US-PP-002
+TXN-0011,2025-12-15,Dec 2025,US Corp,Journal Entry,JE-US-002-3,Google Cloud,Amortization - Google Cloud prepaid,-1000.0,3000.0,US-PP-002
+TXN-0012,2026-01-15,Jan 2026,US Corp,Journal Entry,JE-US-002-4,Google Cloud,Amortization - Google Cloud prepaid,-1000.0,2000.0,US-PP-002
+TXN-0013,2026-02-15,Feb 2026,US Corp,Journal Entry,JE-US-002-5,Google Cloud,Amortization - Google Cloud prepaid,-1000.0,1000.0,US-PP-002
+TXN-0014,2026-03-15,Mar 2026,US Corp,Journal Entry,JE-US-002-6,Google Cloud,Amortization - Google Cloud prepaid,-1000.0,0.0,US-PP-002
+TXN-0015,2025-10-15,Oct 2025,US Corp,Bill,INV-9002,Microsoft,Prepaid Microsoft,6000.0,6000.0,US-PP-003
+TXN-0016,2025-10-15,Oct 2025,US Corp,Journal Entry,JE-US-003-1,Microsoft,Amortization - Microsoft prepaid,-1000.0,5000.0,US-PP-003
+TXN-0017,2025-11-15,Nov 2025,US Corp,Journal Entry,JE-US-003-2,Microsoft,Amortization - Microsoft prepaid,-1000.0,4000.0,US-PP-003
+TXN-0018,2025-12-15,Dec 2025,US Corp,Journal Entry,JE-US-003-3,Microsoft,Amortization - Microsoft prepaid,-1000.0,3000.0,US-PP-003
+TXN-0019,2026-01-15,Jan 2026,US Corp,Journal Entry,JE-US-003-4,Microsoft,Amortization - Microsoft prepaid,-1000.0,2000.0,US-PP-003
+TXN-0020,2026-02-15,Feb 2026,US Corp,Journal Entry,JE-US-003-5,Microsoft,Amortization - Microsoft prepaid,-1000.0,1000.0,US-PP-003
+TXN-0021,2026-03-15,Mar 2026,US Corp,Journal Entry,JE-US-003-6,Microsoft,Amortization - Microsoft prepaid,-1000.0,0.0,US-PP-003
+TXN-0022,2025-11-15,Nov 2025,US Corp,Bill,INV-9000,AWS,Prepaid AWS,6000.0,6000.0,US-PP-001
+TXN-0023,2025-10-15,Oct 2025,Canada Ltd,Bill,INV-9010,Salesforce,Prepaid Salesforce,6000.0,6000.0,Ca-PP-001
+TXN-0024,2025-10-15,Oct 2025,Canada Ltd,Journal Entry,JE-Ca-001-1,Salesforce,Amortization - Salesforce prepaid,-1000.0,5000.0,Ca-PP-001
+TXN-0025,2025-11-15,Nov 2025,Canada Ltd,Journal Entry,JE-Ca-001-2,Salesforce,Amortization - Salesforce prepaid,-1000.0,4000.0,Ca-PP-001
+TXN-0026,2025-12-15,Dec 2025,Canada Ltd,Journal Entry,JE-Ca-001-3,Salesforce,Amortization - Salesforce prepaid,-1000.0,3000.0,Ca-PP-001
+TXN-0027,2026-01-15,Jan 2026,Canada Ltd,Journal Entry,JE-Ca-001-4,Salesforce,Amortization - Salesforce prepaid,-1000.0,2000.0,Ca-PP-001
+TXN-0028,2026-02-15,Feb 2026,Canada Ltd,Journal Entry,JE-Ca-001-5,Salesforce,Amortization - Salesforce prepaid,-1000.0,1000.0,Ca-PP-001
+TXN-0029,2026-03-15,Mar 2026,Canada Ltd,Journal Entry,JE-Ca-001-6,Salesforce,Amortization - Salesforce prepaid,-1000.0,0.0,Ca-PP-001
+TXN-0030,2025-10-15,Oct 2025,Canada Ltd,Bill,INV-9011,HubSpot,Prepaid HubSpot,6000.0,6000.0,Ca-PP-002
+TXN-0031,2025-10-15,Oct 2025,Canada Ltd,Journal Entry,JE-Ca-002-1,HubSpot,Amortization - HubSpot prepaid,-1000.0,5000.0,Ca-PP-002
+TXN-0032,2025-11-15,Nov 2025,Canada Ltd,Journal Entry,JE-Ca-002-2,HubSpot,Amortization - HubSpot prepaid,-1000.0,4000.0,Ca-PP-002
+TXN-0033,2025-12-15,Dec 2025,Canada Ltd,Journal Entry,JE-Ca-002-3,HubSpot,Amortization - HubSpot prepaid,-1000.0,3000.0,Ca-PP-002
+TXN-0034,2026-01-15,Jan 2026,Canada Ltd,Journal Entry,JE-Ca-002-4,HubSpot,Amortization - HubSpot prepaid,-1000.0,2000.0,Ca-PP-002
+TXN-0035,2026-02-15,Feb 2026,Canada Ltd,Journal Entry,JE-Ca-002-5,HubSpot,Amortization - HubSpot prepaid,-1000.0,1000.0,Ca-PP-002
+TXN-0036,2026-03-15,Mar 2026,Canada Ltd,Journal Entry,JE-Ca-002-6,HubSpot,Amortization - HubSpot prepaid,-1000.0,0.0,Ca-PP-002
+TXN-0037,2025-10-15,Oct 2025,Canada Ltd,Bill,INV-9012,Oracle,Prepaid Oracle,6000.0,6000.0,Ca-PP-003
+TXN-0038,2025-10-15,Oct 2025,Canada Ltd,Journal Entry,JE-Ca-003-1,Oracle,Amortization - Oracle prepaid,-1000.0,5000.0,Ca-PP-003
+TXN-0039,2025-11-15,Nov 2025,Canada Ltd,Journal Entry,JE-Ca-003-2,Oracle,Amortization - Oracle prepaid,-1000.0,4000.0,Ca-PP-003
+TXN-0040,2025-12-15,Dec 2025,Canada Ltd,Journal Entry,JE-Ca-003-3,Oracle,Amortization - Oracle prepaid,-1000.0,3000.0,Ca-PP-003
+TXN-0041,2026-01-15,Jan 2026,Canada Ltd,Journal Entry,JE-Ca-003-4,Oracle,Amortization - Oracle prepaid,-1000.0,2000.0,Ca-PP-003
+TXN-0042,2026-02-15,Feb 2026,Canada Ltd,Journal Entry,JE-Ca-003-5,Oracle,Amortization - Oracle prepaid,-1000.0,1000.0,Ca-PP-003
+TXN-0043,2026-03-15,Mar 2026,Canada Ltd,Journal Entry,JE-Ca-003-6,Oracle,Amortization - Oracle prepaid,-1000.0,0.0,Ca-PP-003
+TXN-0044,2025-12-15,Dec 2025,Canada Ltd,Bill,INV-UNLINKED-CA,Workday,Prepaid Workday,5000.0,5000.0,
+TXN-0045,2025-10-15,Oct 2025,UK PLC,Bill,INV-9020,SAP,Prepaid SAP,6000.0,6000.0,UK-PP-001
+TXN-0046,2025-10-15,Oct 2025,UK PLC,Journal Entry,JE-UK-001-1,SAP,Amortization - SAP prepaid,-1000.0,5000.0,UK-PP-001
+TXN-0047,2025-11-15,Nov 2025,UK PLC,Journal Entry,JE-UK-001-2,SAP,Amortization - SAP prepaid,-1000.0,4000.0,UK-PP-001
+TXN-0048,2025-12-15,Dec 2025,UK PLC,Journal Entry,JE-UK-001-3,SAP,Amortization - SAP prepaid,-1000.0,3000.0,UK-PP-001
+TXN-0049,2026-01-15,Jan 2026,UK PLC,Journal Entry,JE-UK-001-4,SAP,Amortization - SAP prepaid,-1000.0,2000.0,UK-PP-001
+TXN-0050,2026-02-15,Feb 2026,UK PLC,Journal Entry,JE-UK-001-5,SAP,Amortization - SAP prepaid,-1000.0,1000.0,UK-PP-001
+TXN-0051,2026-03-15,Mar 2026,UK PLC,Journal Entry,JE-UK-001-6,SAP,Amortization - SAP prepaid,-1000.0,0.0,UK-PP-001
+TXN-0052,2025-10-15,Oct 2025,UK PLC,Bill,INV-9021,Workday,Prepaid Workday,6000.0,6000.0,UK-PP-002
+TXN-0053,2025-10-15,Oct 2025,UK PLC,Journal Entry,JE-UK-002-1,Workday,Amortization - Workday prepaid,-1000.0,5000.0,UK-PP-002
+TXN-0054,2025-11-15,Nov 2025,UK PLC,Journal Entry,JE-UK-002-2,Workday,Amortization - Workday prepaid,-1000.0,4000.0,UK-PP-002
+TXN-0055,2025-12-15,Dec 2025,UK PLC,Journal Entry,JE-UK-002-3,Workday,Amortization - Workday prepaid,-1000.0,3000.0,UK-PP-002
+TXN-0056,2026-01-15,Jan 2026,UK PLC,Journal Entry,JE-UK-002-4,Workday,Amortization - Workday prepaid,-1000.0,2000.0,UK-PP-002
+TXN-0057,2026-02-15,Feb 2026,UK PLC,Journal Entry,JE-UK-002-5,Workday,Amortization - Workday prepaid,-1000.0,1000.0,UK-PP-002
+TXN-0058,2026-03-15,Mar 2026,UK PLC,Journal Entry,JE-UK-002-6,Workday,Amortization - Workday prepaid,-1000.0,0.0,UK-PP-002
+TXN-0059,2025-10-15,Oct 2025,UK PLC,Bill,INV-9022,NetSuite,Prepaid NetSuite,6000.0,6000.0,UK-PP-003
+TXN-0060,2025-10-15,Oct 2025,UK PLC,Journal Entry,JE-UK-003-1,NetSuite,Amortization - NetSuite prepaid,-1000.0,5000.0,UK-PP-003
+TXN-0061,2025-11-15,Nov 2025,UK PLC,Journal Entry,JE-UK-003-2,NetSuite,Amortization - NetSuite prepaid,-1000.0,4000.0,UK-PP-003
+TXN-0062,2025-12-15,Dec 2025,UK PLC,Journal Entry,JE-UK-003-3,NetSuite,Amortization - NetSuite prepaid,-1000.0,3000.0,UK-PP-003
+TXN-0063,2026-01-15,Jan 2026,UK PLC,Journal Entry,JE-UK-003-4,NetSuite,Amortization - NetSuite prepaid,-1000.0,2000.0,UK-PP-003
+TXN-0064,2026-02-15,Feb 2026,UK PLC,Journal Entry,JE-UK-003-5,NetSuite,Amortization - NetSuite prepaid,-1000.0,1000.0,UK-PP-003
+TXN-0065,2026-03-15,Mar 2026,UK PLC,Journal Entry,JE-UK-003-6,NetSuite,Amortization - NetSuite prepaid,-1000.0,0.0,UK-PP-003
+TXN-0066,2026-01-15,Jan 2026,UK PLC,Journal Entry,JE-ADJ-UK,Controller,Reclassification of prepaid balance,-3000.0,-3000.0,UK-PP-001
+TXN-0067,2025-10-15,Oct 2025,Israel Ltd,Bill,INV-9030,AWS,Prepaid AWS,6000.0,6000.0,Is-PP-001
+TXN-0068,2025-10-15,Oct 2025,Israel Ltd,Journal Entry,JE-Is-001-1,AWS,Amortization - AWS prepaid,-1000.0,5000.0,Is-PP-001
+TXN-0069,2025-11-15,Nov 2025,Israel Ltd,Journal Entry,JE-Is-001-2,AWS,Amortization - AWS prepaid,-1000.0,4000.0,Is-PP-001
+TXN-0070,2025-12-15,Dec 2025,Israel Ltd,Journal Entry,JE-Is-001-3,AWS,Amortization - AWS prepaid,-1000.0,3000.0,Is-PP-001
+TXN-0071,2026-01-15,Jan 2026,Israel Ltd,Journal Entry,JE-Is-001-4,AWS,Amortization - AWS prepaid,-1000.0,2000.0,Is-PP-001
+TXN-0072,2026-02-15,Feb 2026,Israel Ltd,Journal Entry,JE-Is-001-5,AWS,Amortization - AWS prepaid,-1000.0,1000.0,Is-PP-001
+TXN-0073,2026-03-15,Mar 2026,Israel Ltd,Journal Entry,JE-Is-001-6,AWS,Amortization - AWS prepaid,-1000.0,0.0,Is-PP-001
+TXN-0074,2025-10-15,Oct 2025,Israel Ltd,Bill,INV-9031,Google Cloud,Prepaid Google Cloud,6000.0,6000.0,Is-PP-002
+TXN-0075,2025-10-15,Oct 2025,Israel Ltd,Journal Entry,JE-Is-002-1,Google Cloud,Amortization - Google Cloud prepaid,-1000.0,5000.0,Is-PP-002
+TXN-0076,2025-11-15,Nov 2025,Israel Ltd,Journal Entry,JE-Is-002-2,Google Cloud,Amortization - Google Cloud prepaid,-1000.0,4000.0,Is-PP-002
+TXN-0077,2025-12-15,Dec 2025,Israel Ltd,Journal Entry,JE-Is-002-3,Google Cloud,Amortization - Google Cloud prepaid,-1000.0,3000.0,Is-PP-002
+TXN-0078,2026-01-15,Jan 2026,Israel Ltd,Journal Entry,JE-Is-002-4,Google Cloud,Amortization - Google Cloud prepaid,-1000.0,2000.0,Is-PP-002
+TXN-0079,2026-02-15,Feb 2026,Israel Ltd,Journal Entry,JE-Is-002-5,Google Cloud,Amortization - Google Cloud prepaid,-1000.0,1000.0,Is-PP-002
+TXN-0080,2026-03-15,Mar 2026,Israel Ltd,Journal Entry,JE-Is-002-6,Google Cloud,Amortization - Google Cloud prepaid,-1000.0,0.0,Is-PP-002
+TXN-0081,2025-10-15,Oct 2025,Israel Ltd,Bill,INV-9032,Microsoft,Prepaid Microsoft,6000.0,6000.0,Is-PP-003
+TXN-0082,2025-10-15,Oct 2025,Israel Ltd,Journal Entry,JE-Is-003-1,Microsoft,Amortization - Microsoft prepaid,-1000.0,5000.0,Is-PP-003
+TXN-0083,2025-11-15,Nov 2025,Israel Ltd,Journal Entry,JE-Is-003-2,Microsoft,Amortization - Microsoft prepaid,-1000.0,4000.0,Is-PP-003
+TXN-0084,2025-12-15,Dec 2025,Israel Ltd,Journal Entry,JE-Is-003-3,Microsoft,Amortization - Microsoft prepaid,-1000.0,3000.0,Is-PP-003
+TXN-0085,2026-01-15,Jan 2026,Israel Ltd,Journal Entry,JE-Is-003-4,Microsoft,Amortization - Microsoft prepaid,-1000.0,2000.0,Is-PP-003
+TXN-0086,2026-02-15,Feb 2026,Israel Ltd,Journal Entry,JE-Is-003-5,Microsoft,Amortization - Microsoft prepaid,-1000.0,1000.0,Is-PP-003
+TXN-0087,2026-03-15,Mar 2026,Israel Ltd,Journal Entry,JE-Is-003-6,Microsoft,Amortization - Microsoft prepaid,-1000.0,0.0,Is-PP-003

@@ -1,0 +1,121 @@
+schedule_id,prepaid_item_id,entity,vendor_name,description,original_amount,start_date,end_date,total_periods,accounting_period,period_number,scheduled_amortization,expected_ending_balance,source_document,status
+S-001,PP-001,Acme Corp,AWS,Prepaid AWS,6000,Oct 2025,Mar 2026,6,Oct 2025,1,1000.0,5000.0,Bill #INV-1000,Active
+S-001,PP-001,Acme Corp,AWS,Prepaid AWS,6000,Oct 2025,Mar 2026,6,Nov 2025,2,1000.0,4000.0,Bill #INV-1000,Active
+S-001,PP-001,Acme Corp,AWS,Prepaid AWS,6000,Oct 2025,Mar 2026,6,Dec 2025,3,1000.0,3000.0,Bill #INV-1000,Active
+S-001,PP-001,Acme Corp,AWS,Prepaid AWS,6000,Oct 2025,Mar 2026,6,Jan 2026,4,1000.0,2000.0,Bill #INV-1000,Active
+S-001,PP-001,Acme Corp,AWS,Prepaid AWS,6000,Oct 2025,Mar 2026,6,Feb 2026,5,1000.0,1000.0,Bill #INV-1000,Active
+S-001,PP-001,Acme Corp,AWS,Prepaid AWS,6000,Oct 2025,Mar 2026,6,Mar 2026,6,1000.0,0.0,Bill #INV-1000,Active
+S-002,PP-002,Acme Corp,Google Cloud,Prepaid Google Cloud,6300,Oct 2025,Mar 2026,6,Oct 2025,1,1050.0,5250.0,Bill #INV-1001,Active
+S-002,PP-002,Acme Corp,Google Cloud,Prepaid Google Cloud,6300,Oct 2025,Mar 2026,6,Nov 2025,2,1050.0,4200.0,Bill #INV-1001,Active
+S-002,PP-002,Acme Corp,Google Cloud,Prepaid Google Cloud,6300,Oct 2025,Mar 2026,6,Dec 2025,3,1050.0,3150.0,Bill #INV-1001,Active
+S-002,PP-002,Acme Corp,Google Cloud,Prepaid Google Cloud,6300,Oct 2025,Mar 2026,6,Jan 2026,4,1050.0,2100.0,Bill #INV-1001,Active
+S-002,PP-002,Acme Corp,Google Cloud,Prepaid Google Cloud,6300,Oct 2025,Mar 2026,6,Feb 2026,5,1050.0,1050.0,Bill #INV-1001,Active
+S-002,PP-002,Acme Corp,Google Cloud,Prepaid Google Cloud,6300,Oct 2025,Mar 2026,6,Mar 2026,6,1050.0,0.0,Bill #INV-1001,Active
+S-003,PP-003,Acme Corp,Microsoft,Prepaid Microsoft,6600,Oct 2025,Mar 2026,6,Oct 2025,1,1100.0,5500.0,Bill #INV-1002,Active
+S-003,PP-003,Acme Corp,Microsoft,Prepaid Microsoft,6600,Oct 2025,Mar 2026,6,Nov 2025,2,1100.0,4400.0,Bill #INV-1002,Active
+S-003,PP-003,Acme Corp,Microsoft,Prepaid Microsoft,6600,Oct 2025,Mar 2026,6,Dec 2025,3,1100.0,3300.0,Bill #INV-1002,Active
+S-003,PP-003,Acme Corp,Microsoft,Prepaid Microsoft,6600,Oct 2025,Mar 2026,6,Jan 2026,4,1100.0,2200.0,Bill #INV-1002,Active
+S-003,PP-003,Acme Corp,Microsoft,Prepaid Microsoft,6600,Oct 2025,Mar 2026,6,Feb 2026,5,1100.0,1100.0,Bill #INV-1002,Active
+S-003,PP-003,Acme Corp,Microsoft,Prepaid Microsoft,6600,Oct 2025,Mar 2026,6,Mar 2026,6,1100.0,0.0,Bill #INV-1002,Active
+S-004,PP-004,Acme Corp,Salesforce,Prepaid Salesforce,6900,Oct 2025,Mar 2026,6,Oct 2025,1,1150.0,5750.0,Bill #INV-1003,Active
+S-004,PP-004,Acme Corp,Salesforce,Prepaid Salesforce,6900,Oct 2025,Mar 2026,6,Nov 2025,2,1150.0,4600.0,Bill #INV-1003,Active
+S-004,PP-004,Acme Corp,Salesforce,Prepaid Salesforce,6900,Oct 2025,Mar 2026,6,Dec 2025,3,1150.0,3450.0,Bill #INV-1003,Active
+S-004,PP-004,Acme Corp,Salesforce,Prepaid Salesforce,6900,Oct 2025,Mar 2026,6,Jan 2026,4,1150.0,2300.0,Bill #INV-1003,Active
+S-004,PP-004,Acme Corp,Salesforce,Prepaid Salesforce,6900,Oct 2025,Mar 2026,6,Feb 2026,5,1150.0,1150.0,Bill #INV-1003,Active
+S-004,PP-004,Acme Corp,Salesforce,Prepaid Salesforce,6900,Oct 2025,Mar 2026,6,Mar 2026,6,1150.0,0.0,Bill #INV-1003,Active
+S-005,PP-005,Acme Corp,HubSpot,Prepaid HubSpot,7200,Oct 2025,Mar 2026,6,Oct 2025,1,1200.0,6000.0,Bill #INV-1004,Active
+S-005,PP-005,Acme Corp,HubSpot,Prepaid HubSpot,7200,Oct 2025,Mar 2026,6,Nov 2025,2,1200.0,4800.0,Bill #INV-1004,Active
+S-005,PP-005,Acme Corp,HubSpot,Prepaid HubSpot,7200,Oct 2025,Mar 2026,6,Dec 2025,3,1200.0,3600.0,Bill #INV-1004,Active
+S-005,PP-005,Acme Corp,HubSpot,Prepaid HubSpot,7200,Oct 2025,Mar 2026,6,Jan 2026,4,1200.0,2400.0,Bill #INV-1004,Active
+S-005,PP-005,Acme Corp,HubSpot,Prepaid HubSpot,7200,Oct 2025,Mar 2026,6,Feb 2026,5,1200.0,1200.0,Bill #INV-1004,Active
+S-005,PP-005,Acme Corp,HubSpot,Prepaid HubSpot,7200,Oct 2025,Mar 2026,6,Mar 2026,6,1200.0,0.0,Bill #INV-1004,Active
+S-006,PP-006,Acme Corp,Oracle,Prepaid Oracle,7500,Oct 2025,Mar 2026,6,Oct 2025,1,1250.0,6250.0,Bill #INV-1005,Active
+S-006,PP-006,Acme Corp,Oracle,Prepaid Oracle,7500,Oct 2025,Mar 2026,6,Nov 2025,2,1250.0,5000.0,Bill #INV-1005,Active
+S-006,PP-006,Acme Corp,Oracle,Prepaid Oracle,7500,Oct 2025,Mar 2026,6,Dec 2025,3,1250.0,3750.0,Bill #INV-1005,Active
+S-006,PP-006,Acme Corp,Oracle,Prepaid Oracle,7500,Oct 2025,Mar 2026,6,Jan 2026,4,1250.0,2500.0,Bill #INV-1005,Active
+S-006,PP-006,Acme Corp,Oracle,Prepaid Oracle,7500,Oct 2025,Mar 2026,6,Feb 2026,5,1250.0,1250.0,Bill #INV-1005,Active
+S-006,PP-006,Acme Corp,Oracle,Prepaid Oracle,7500,Oct 2025,Mar 2026,6,Mar 2026,6,1250.0,0.0,Bill #INV-1005,Active
+S-007,PP-007,Acme Corp,SAP,Prepaid SAP,7800,Oct 2025,Mar 2026,6,Oct 2025,1,1300.0,6500.0,Bill #INV-1006,Active
+S-007,PP-007,Acme Corp,SAP,Prepaid SAP,7800,Oct 2025,Mar 2026,6,Nov 2025,2,1300.0,5200.0,Bill #INV-1006,Active
+S-007,PP-007,Acme Corp,SAP,Prepaid SAP,7800,Oct 2025,Mar 2026,6,Dec 2025,3,1300.0,3900.0,Bill #INV-1006,Active
+S-007,PP-007,Acme Corp,SAP,Prepaid SAP,7800,Oct 2025,Mar 2026,6,Jan 2026,4,1300.0,2600.0,Bill #INV-1006,Active
+S-007,PP-007,Acme Corp,SAP,Prepaid SAP,7800,Oct 2025,Mar 2026,6,Feb 2026,5,1300.0,1300.0,Bill #INV-1006,Active
+S-007,PP-007,Acme Corp,SAP,Prepaid SAP,7800,Oct 2025,Mar 2026,6,Mar 2026,6,1300.0,0.0,Bill #INV-1006,Active
+S-008,PP-008,Acme Corp,Workday,Prepaid Workday,8100,Oct 2025,Mar 2026,6,Oct 2025,1,1350.0,6750.0,Bill #INV-1007,Active
+S-008,PP-008,Acme Corp,Workday,Prepaid Workday,8100,Oct 2025,Mar 2026,6,Nov 2025,2,1350.0,5400.0,Bill #INV-1007,Active
+S-008,PP-008,Acme Corp,Workday,Prepaid Workday,8100,Oct 2025,Mar 2026,6,Dec 2025,3,1350.0,4050.0,Bill #INV-1007,Active
+S-008,PP-008,Acme Corp,Workday,Prepaid Workday,8100,Oct 2025,Mar 2026,6,Jan 2026,4,1350.0,2700.0,Bill #INV-1007,Active
+S-008,PP-008,Acme Corp,Workday,Prepaid Workday,8100,Oct 2025,Mar 2026,6,Feb 2026,5,1350.0,1350.0,Bill #INV-1007,Active
+S-008,PP-008,Acme Corp,Workday,Prepaid Workday,8100,Oct 2025,Mar 2026,6,Mar 2026,6,1350.0,0.0,Bill #INV-1007,Active
+S-009,PP-009,Acme Corp,NetSuite,Prepaid NetSuite,8400,Oct 2025,Mar 2026,6,Oct 2025,1,1400.0,7000.0,Bill #INV-1008,Active
+S-009,PP-009,Acme Corp,NetSuite,Prepaid NetSuite,8400,Oct 2025,Mar 2026,6,Nov 2025,2,1400.0,5600.0,Bill #INV-1008,Active
+S-009,PP-009,Acme Corp,NetSuite,Prepaid NetSuite,8400,Oct 2025,Mar 2026,6,Dec 2025,3,1400.0,4200.0,Bill #INV-1008,Active
+S-009,PP-009,Acme Corp,NetSuite,Prepaid NetSuite,8400,Oct 2025,Mar 2026,6,Jan 2026,4,1400.0,2800.0,Bill #INV-1008,Active
+S-009,PP-009,Acme Corp,NetSuite,Prepaid NetSuite,8400,Oct 2025,Mar 2026,6,Feb 2026,5,1400.0,1400.0,Bill #INV-1008,Active
+S-009,PP-009,Acme Corp,NetSuite,Prepaid NetSuite,8400,Oct 2025,Mar 2026,6,Mar 2026,6,1400.0,0.0,Bill #INV-1008,Active
+S-010,PP-010,Acme Corp,AWS,Prepaid AWS,8700,Oct 2025,Mar 2026,6,Oct 2025,1,1450.0,7250.0,Bill #INV-1009,Active
+S-010,PP-010,Acme Corp,AWS,Prepaid AWS,8700,Oct 2025,Mar 2026,6,Nov 2025,2,1450.0,5800.0,Bill #INV-1009,Active
+S-010,PP-010,Acme Corp,AWS,Prepaid AWS,8700,Oct 2025,Mar 2026,6,Dec 2025,3,1450.0,4350.0,Bill #INV-1009,Active
+S-010,PP-010,Acme Corp,AWS,Prepaid AWS,8700,Oct 2025,Mar 2026,6,Jan 2026,4,1450.0,2900.0,Bill #INV-1009,Active
+S-010,PP-010,Acme Corp,AWS,Prepaid AWS,8700,Oct 2025,Mar 2026,6,Feb 2026,5,1450.0,1450.0,Bill #INV-1009,Active
+S-010,PP-010,Acme Corp,AWS,Prepaid AWS,8700,Oct 2025,Mar 2026,6,Mar 2026,6,1450.0,0.0,Bill #INV-1009,Active
+S-011,PP-011,Acme Corp,Google Cloud,Prepaid Google Cloud,9000,Oct 2025,Mar 2026,6,Oct 2025,1,1500.0,7500.0,Bill #INV-1010,Active
+S-011,PP-011,Acme Corp,Google Cloud,Prepaid Google Cloud,9000,Oct 2025,Mar 2026,6,Nov 2025,2,1500.0,6000.0,Bill #INV-1010,Active
+S-011,PP-011,Acme Corp,Google Cloud,Prepaid Google Cloud,9000,Oct 2025,Mar 2026,6,Dec 2025,3,1500.0,4500.0,Bill #INV-1010,Active
+S-011,PP-011,Acme Corp,Google Cloud,Prepaid Google Cloud,9000,Oct 2025,Mar 2026,6,Jan 2026,4,1500.0,3000.0,Bill #INV-1010,Active
+S-011,PP-011,Acme Corp,Google Cloud,Prepaid Google Cloud,9000,Oct 2025,Mar 2026,6,Feb 2026,5,1500.0,1500.0,Bill #INV-1010,Active
+S-011,PP-011,Acme Corp,Google Cloud,Prepaid Google Cloud,9000,Oct 2025,Mar 2026,6,Mar 2026,6,1500.0,0.0,Bill #INV-1010,Active
+S-012,PP-012,Acme Corp,Microsoft,Prepaid Microsoft,9300,Oct 2025,Mar 2026,6,Oct 2025,1,1550.0,7750.0,Bill #INV-1011,Active
+S-012,PP-012,Acme Corp,Microsoft,Prepaid Microsoft,9300,Oct 2025,Mar 2026,6,Nov 2025,2,1550.0,6200.0,Bill #INV-1011,Active
+S-012,PP-012,Acme Corp,Microsoft,Prepaid Microsoft,9300,Oct 2025,Mar 2026,6,Dec 2025,3,1550.0,4650.0,Bill #INV-1011,Active
+S-012,PP-012,Acme Corp,Microsoft,Prepaid Microsoft,9300,Oct 2025,Mar 2026,6,Jan 2026,4,1550.0,3100.0,Bill #INV-1011,Active
+S-012,PP-012,Acme Corp,Microsoft,Prepaid Microsoft,9300,Oct 2025,Mar 2026,6,Feb 2026,5,1550.0,1550.0,Bill #INV-1011,Active
+S-012,PP-012,Acme Corp,Microsoft,Prepaid Microsoft,9300,Oct 2025,Mar 2026,6,Mar 2026,6,1550.0,0.0,Bill #INV-1011,Active
+S-013,PP-013,Acme Corp,Salesforce,Prepaid Salesforce,9600,Oct 2025,Mar 2026,6,Oct 2025,1,1600.0,8000.0,Bill #INV-1012,Active
+S-013,PP-013,Acme Corp,Salesforce,Prepaid Salesforce,9600,Oct 2025,Mar 2026,6,Nov 2025,2,1600.0,6400.0,Bill #INV-1012,Active
+S-013,PP-013,Acme Corp,Salesforce,Prepaid Salesforce,9600,Oct 2025,Mar 2026,6,Dec 2025,3,1600.0,4800.0,Bill #INV-1012,Active
+S-013,PP-013,Acme Corp,Salesforce,Prepaid Salesforce,9600,Oct 2025,Mar 2026,6,Jan 2026,4,1600.0,3200.0,Bill #INV-1012,Active
+S-013,PP-013,Acme Corp,Salesforce,Prepaid Salesforce,9600,Oct 2025,Mar 2026,6,Feb 2026,5,1600.0,1600.0,Bill #INV-1012,Active
+S-013,PP-013,Acme Corp,Salesforce,Prepaid Salesforce,9600,Oct 2025,Mar 2026,6,Mar 2026,6,1600.0,0.0,Bill #INV-1012,Active
+S-014,PP-014,Acme Corp,HubSpot,Prepaid HubSpot,9900,Oct 2025,Mar 2026,6,Oct 2025,1,1650.0,8250.0,Bill #INV-1013,Active
+S-014,PP-014,Acme Corp,HubSpot,Prepaid HubSpot,9900,Oct 2025,Mar 2026,6,Nov 2025,2,1650.0,6600.0,Bill #INV-1013,Active
+S-014,PP-014,Acme Corp,HubSpot,Prepaid HubSpot,9900,Oct 2025,Mar 2026,6,Dec 2025,3,1650.0,4950.0,Bill #INV-1013,Active
+S-014,PP-014,Acme Corp,HubSpot,Prepaid HubSpot,9900,Oct 2025,Mar 2026,6,Jan 2026,4,1650.0,3300.0,Bill #INV-1013,Active
+S-014,PP-014,Acme Corp,HubSpot,Prepaid HubSpot,9900,Oct 2025,Mar 2026,6,Feb 2026,5,1650.0,1650.0,Bill #INV-1013,Active
+S-014,PP-014,Acme Corp,HubSpot,Prepaid HubSpot,9900,Oct 2025,Mar 2026,6,Mar 2026,6,1650.0,0.0,Bill #INV-1013,Active
+S-015,PP-015,Acme Corp,Oracle,Prepaid Oracle,10200,Oct 2025,Mar 2026,6,Oct 2025,1,1700.0,8500.0,Bill #INV-1014,Active
+S-015,PP-015,Acme Corp,Oracle,Prepaid Oracle,10200,Oct 2025,Mar 2026,6,Nov 2025,2,1700.0,6800.0,Bill #INV-1014,Active
+S-015,PP-015,Acme Corp,Oracle,Prepaid Oracle,10200,Oct 2025,Mar 2026,6,Dec 2025,3,1700.0,5100.0,Bill #INV-1014,Active
+S-015,PP-015,Acme Corp,Oracle,Prepaid Oracle,10200,Oct 2025,Mar 2026,6,Jan 2026,4,1700.0,3400.0,Bill #INV-1014,Active
+S-015,PP-015,Acme Corp,Oracle,Prepaid Oracle,10200,Oct 2025,Mar 2026,6,Feb 2026,5,1700.0,1700.0,Bill #INV-1014,Active
+S-015,PP-015,Acme Corp,Oracle,Prepaid Oracle,10200,Oct 2025,Mar 2026,6,Mar 2026,6,1700.0,0.0,Bill #INV-1014,Active
+S-016,PP-016,Acme Corp,SAP,Prepaid SAP,10500,Oct 2025,Mar 2026,6,Oct 2025,1,1750.0,8750.0,Bill #INV-1015,Active
+S-016,PP-016,Acme Corp,SAP,Prepaid SAP,10500,Oct 2025,Mar 2026,6,Nov 2025,2,1750.0,7000.0,Bill #INV-1015,Active
+S-016,PP-016,Acme Corp,SAP,Prepaid SAP,10500,Oct 2025,Mar 2026,6,Dec 2025,3,1750.0,5250.0,Bill #INV-1015,Active
+S-016,PP-016,Acme Corp,SAP,Prepaid SAP,10500,Oct 2025,Mar 2026,6,Jan 2026,4,1750.0,3500.0,Bill #INV-1015,Active
+S-016,PP-016,Acme Corp,SAP,Prepaid SAP,10500,Oct 2025,Mar 2026,6,Feb 2026,5,1750.0,1750.0,Bill #INV-1015,Active
+S-016,PP-016,Acme Corp,SAP,Prepaid SAP,10500,Oct 2025,Mar 2026,6,Mar 2026,6,1750.0,0.0,Bill #INV-1015,Active
+S-017,PP-017,Acme Corp,Workday,Prepaid Workday,10800,Oct 2025,Mar 2026,6,Oct 2025,1,1800.0,9000.0,Bill #INV-1016,Active
+S-017,PP-017,Acme Corp,Workday,Prepaid Workday,10800,Oct 2025,Mar 2026,6,Nov 2025,2,1800.0,7200.0,Bill #INV-1016,Active
+S-017,PP-017,Acme Corp,Workday,Prepaid Workday,10800,Oct 2025,Mar 2026,6,Dec 2025,3,1800.0,5400.0,Bill #INV-1016,Active
+S-017,PP-017,Acme Corp,Workday,Prepaid Workday,10800,Oct 2025,Mar 2026,6,Jan 2026,4,1800.0,3600.0,Bill #INV-1016,Active
+S-017,PP-017,Acme Corp,Workday,Prepaid Workday,10800,Oct 2025,Mar 2026,6,Feb 2026,5,1800.0,1800.0,Bill #INV-1016,Active
+S-017,PP-017,Acme Corp,Workday,Prepaid Workday,10800,Oct 2025,Mar 2026,6,Mar 2026,6,1800.0,0.0,Bill #INV-1016,Active
+S-018,PP-018,Acme Corp,NetSuite,Prepaid NetSuite,11100,Oct 2025,Mar 2026,6,Oct 2025,1,1850.0,9250.0,Bill #INV-1017,Active
+S-018,PP-018,Acme Corp,NetSuite,Prepaid NetSuite,11100,Oct 2025,Mar 2026,6,Nov 2025,2,1850.0,7400.0,Bill #INV-1017,Active
+S-018,PP-018,Acme Corp,NetSuite,Prepaid NetSuite,11100,Oct 2025,Mar 2026,6,Dec 2025,3,1850.0,5550.0,Bill #INV-1017,Active
+S-018,PP-018,Acme Corp,NetSuite,Prepaid NetSuite,11100,Oct 2025,Mar 2026,6,Jan 2026,4,1850.0,3700.0,Bill #INV-1017,Active
+S-018,PP-018,Acme Corp,NetSuite,Prepaid NetSuite,11100,Oct 2025,Mar 2026,6,Feb 2026,5,1850.0,1850.0,Bill #INV-1017,Active
+S-018,PP-018,Acme Corp,NetSuite,Prepaid NetSuite,11100,Oct 2025,Mar 2026,6,Mar 2026,6,1850.0,0.0,Bill #INV-1017,Active
+S-019,PP-019,Acme Corp,AWS,Prepaid AWS,11400,Oct 2025,Mar 2026,6,Oct 2025,1,1900.0,9500.0,Bill #INV-1018,Active
+S-019,PP-019,Acme Corp,AWS,Prepaid AWS,11400,Oct 2025,Mar 2026,6,Nov 2025,2,1900.0,7600.0,Bill #INV-1018,Active
+S-019,PP-019,Acme Corp,AWS,Prepaid AWS,11400,Oct 2025,Mar 2026,6,Dec 2025,3,1900.0,5700.0,Bill #INV-1018,Active
+S-019,PP-019,Acme Corp,AWS,Prepaid AWS,11400,Oct 2025,Mar 2026,6,Jan 2026,4,1900.0,3800.0,Bill #INV-1018,Active
+S-019,PP-019,Acme Corp,AWS,Prepaid AWS,11400,Oct 2025,Mar 2026,6,Feb 2026,5,1900.0,1900.0,Bill #INV-1018,Active
+S-019,PP-019,Acme Corp,AWS,Prepaid AWS,11400,Oct 2025,Mar 2026,6,Mar 2026,6,1900.0,0.0,Bill #INV-1018,Active
+S-020,PP-020,Acme Corp,Google Cloud,Prepaid Google Cloud,11700,Oct 2025,Mar 2026,6,Oct 2025,1,1950.0,9750.0,Bill #INV-1019,Active
+S-020,PP-020,Acme Corp,Google Cloud,Prepaid Google Cloud,11700,Oct 2025,Mar 2026,6,Nov 2025,2,1950.0,7800.0,Bill #INV-1019,Active
+S-020,PP-020,Acme Corp,Google Cloud,Prepaid Google Cloud,11700,Oct 2025,Mar 2026,6,Dec 2025,3,1950.0,5850.0,Bill #INV-1019,Active
+S-020,PP-020,Acme Corp,Google Cloud,Prepaid Google Cloud,11700,Oct 2025,Mar 2026,6,Jan 2026,4,1950.0,3900.0,Bill #INV-1019,Active
+S-020,PP-020,Acme Corp,Google Cloud,Prepaid Google Cloud,11700,Oct 2025,Mar 2026,6,Feb 2026,5,1950.0,1950.0,Bill #INV-1019,Active
+S-020,PP-020,Acme Corp,Google Cloud,Prepaid Google Cloud,11700,Oct 2025,Mar 2026,6,Mar 2026,6,1950.0,0.0,Bill #INV-1019,Active

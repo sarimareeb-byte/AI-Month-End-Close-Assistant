@@ -1,0 +1,49 @@
+transaction_id,transaction_date,accounting_period,entity,transaction_type,document_number,vendor_name,description,amount,running_balance,prepaid_item_id
+TXN-0001,2025-10-15,Oct 2025,Acme Corp,Bill,INV-10000,AWS,Prepaid AWS,10.0,10.0,PP-001
+TXN-0002,2025-11-15,Nov 2025,Acme Corp,Bill,INV-10000,AWS,Prepaid AWS,10.0,20.0,PP-001
+TXN-0003,2025-10-15,Oct 2025,Acme Corp,Journal Entry,JE-A-001-1,AWS,Amortization - AWS prepaid,-1.67,18.33,PP-001
+TXN-0004,2025-11-15,Nov 2025,Acme Corp,Journal Entry,JE-A-001-2,AWS,Amortization - AWS prepaid,-1.67,16.66,PP-001
+TXN-0005,2025-12-15,Dec 2025,Acme Corp,Journal Entry,JE-A-001-3,AWS,Amortization - AWS prepaid,-1.67,14.99,PP-001
+TXN-0006,2026-01-15,Jan 2026,Acme Corp,Journal Entry,JE-A-001-4,AWS,Amortization - AWS prepaid,-1.67,13.32,PP-001
+TXN-0007,2026-02-15,Feb 2026,Acme Corp,Journal Entry,JE-A-001-5,AWS,Amortization - AWS prepaid,-1.67,11.65,PP-001
+TXN-0008,2026-03-15,Mar 2026,Acme Corp,Journal Entry,JE-A-001-6,AWS,Amortization - AWS prepaid,-1.67,9.98,PP-001
+TXN-0009,2025-10-15,Oct 2025,Acme Corp,Bill,INV-10001,Google Cloud,Prepaid Google Cloud,50.0,59.98,PP-002
+TXN-0010,2025-11-15,Nov 2025,Acme Corp,Bill,INV-10001,Google Cloud,Prepaid Google Cloud,50.0,109.98,PP-002
+TXN-0011,2025-10-15,Oct 2025,Acme Corp,Journal Entry,JE-A-002-1,Google Cloud,Amortization - Google Cloud prepaid,-8.33,101.65,PP-002
+TXN-0012,2025-11-15,Nov 2025,Acme Corp,Journal Entry,JE-A-002-2,Google Cloud,Amortization - Google Cloud prepaid,-8.33,93.32,PP-002
+TXN-0013,2025-12-15,Dec 2025,Acme Corp,Journal Entry,JE-A-002-3,Google Cloud,Amortization - Google Cloud prepaid,-8.33,84.99,PP-002
+TXN-0014,2026-01-15,Jan 2026,Acme Corp,Journal Entry,JE-A-002-4,Google Cloud,Amortization - Google Cloud prepaid,-8.33,76.66,PP-002
+TXN-0015,2026-02-15,Feb 2026,Acme Corp,Journal Entry,JE-A-002-5,Google Cloud,Amortization - Google Cloud prepaid,-8.33,68.33,PP-002
+TXN-0016,2026-03-15,Mar 2026,Acme Corp,Journal Entry,JE-A-002-6,Google Cloud,Amortization - Google Cloud prepaid,-8.33,60.0,PP-002
+TXN-0017,2025-10-15,Oct 2025,Acme Corp,Bill,INV-10002,Microsoft,Prepaid Microsoft,100.0,160.0,PP-003
+TXN-0018,2025-11-15,Nov 2025,Acme Corp,Bill,INV-10002,Microsoft,Prepaid Microsoft,100.0,260.0,PP-003
+TXN-0019,2025-10-15,Oct 2025,Acme Corp,Journal Entry,JE-A-003-1,Microsoft,Amortization - Microsoft prepaid,-16.67,243.33,PP-003
+TXN-0020,2025-11-15,Nov 2025,Acme Corp,Journal Entry,JE-A-003-2,Microsoft,Amortization - Microsoft prepaid,-16.67,226.66,PP-003
+TXN-0021,2025-12-15,Dec 2025,Acme Corp,Journal Entry,JE-A-003-3,Microsoft,Amortization - Microsoft prepaid,-16.67,209.99,PP-003
+TXN-0022,2026-01-15,Jan 2026,Acme Corp,Journal Entry,JE-A-003-4,Microsoft,Amortization - Microsoft prepaid,-16.67,193.32,PP-003
+TXN-0023,2026-02-15,Feb 2026,Acme Corp,Journal Entry,JE-A-003-5,Microsoft,Amortization - Microsoft prepaid,-16.67,176.65,PP-003
+TXN-0024,2026-03-15,Mar 2026,Acme Corp,Journal Entry,JE-A-003-6,Microsoft,Amortization - Microsoft prepaid,-16.67,159.98,PP-003
+TXN-0025,2025-10-15,Oct 2025,Acme Corp,Bill,INV-10003,Salesforce,Prepaid Salesforce,500.0,659.98,PP-004
+TXN-0026,2025-11-15,Nov 2025,Acme Corp,Bill,INV-10003,Salesforce,Prepaid Salesforce,500.0,1159.98,PP-004
+TXN-0027,2025-10-15,Oct 2025,Acme Corp,Journal Entry,JE-A-004-1,Salesforce,Amortization - Salesforce prepaid,-83.33,1076.65,PP-004
+TXN-0028,2025-11-15,Nov 2025,Acme Corp,Journal Entry,JE-A-004-2,Salesforce,Amortization - Salesforce prepaid,-83.33,993.32,PP-004
+TXN-0029,2025-12-15,Dec 2025,Acme Corp,Journal Entry,JE-A-004-3,Salesforce,Amortization - Salesforce prepaid,-83.33,909.99,PP-004
+TXN-0030,2026-01-15,Jan 2026,Acme Corp,Journal Entry,JE-A-004-4,Salesforce,Amortization - Salesforce prepaid,-83.33,826.66,PP-004
+TXN-0031,2026-02-15,Feb 2026,Acme Corp,Journal Entry,JE-A-004-5,Salesforce,Amortization - Salesforce prepaid,-83.33,743.33,PP-004
+TXN-0032,2026-03-15,Mar 2026,Acme Corp,Journal Entry,JE-A-004-6,Salesforce,Amortization - Salesforce prepaid,-83.33,660.0,PP-004
+TXN-0033,2025-10-15,Oct 2025,Acme Corp,Bill,INV-10004,HubSpot,Prepaid HubSpot,5000.0,5660.0,PP-005
+TXN-0034,2025-11-15,Nov 2025,Acme Corp,Bill,INV-10004,HubSpot,Prepaid HubSpot,5000.0,10660.0,PP-005
+TXN-0035,2025-10-15,Oct 2025,Acme Corp,Journal Entry,JE-A-005-1,HubSpot,Amortization - HubSpot prepaid,-833.33,9826.67,PP-005
+TXN-0036,2025-11-15,Nov 2025,Acme Corp,Journal Entry,JE-A-005-2,HubSpot,Amortization - HubSpot prepaid,-833.33,8993.34,PP-005
+TXN-0037,2025-12-15,Dec 2025,Acme Corp,Journal Entry,JE-A-005-3,HubSpot,Amortization - HubSpot prepaid,-833.33,8160.01,PP-005
+TXN-0038,2026-01-15,Jan 2026,Acme Corp,Journal Entry,JE-A-005-4,HubSpot,Amortization - HubSpot prepaid,-833.33,7326.68,PP-005
+TXN-0039,2026-02-15,Feb 2026,Acme Corp,Journal Entry,JE-A-005-5,HubSpot,Amortization - HubSpot prepaid,-833.33,6493.35,PP-005
+TXN-0040,2026-03-15,Mar 2026,Acme Corp,Journal Entry,JE-A-005-6,HubSpot,Amortization - HubSpot prepaid,-833.33,5660.02,PP-005
+TXN-0041,2025-10-15,Oct 2025,Acme Corp,Bill,INV-10005,Oracle,Prepaid Oracle,50000.0,55660.02,PP-006
+TXN-0042,2025-11-15,Nov 2025,Acme Corp,Bill,INV-10005,Oracle,Prepaid Oracle,50000.0,105660.02,PP-006
+TXN-0043,2025-10-15,Oct 2025,Acme Corp,Journal Entry,JE-A-006-1,Oracle,Amortization - Oracle prepaid,-8333.33,97326.69,PP-006
+TXN-0044,2025-11-15,Nov 2025,Acme Corp,Journal Entry,JE-A-006-2,Oracle,Amortization - Oracle prepaid,-8333.33,88993.36,PP-006
+TXN-0045,2025-12-15,Dec 2025,Acme Corp,Journal Entry,JE-A-006-3,Oracle,Amortization - Oracle prepaid,-8333.33,80660.03,PP-006
+TXN-0046,2026-01-15,Jan 2026,Acme Corp,Journal Entry,JE-A-006-4,Oracle,Amortization - Oracle prepaid,-8333.33,72326.7,PP-006
+TXN-0047,2026-02-15,Feb 2026,Acme Corp,Journal Entry,JE-A-006-5,Oracle,Amortization - Oracle prepaid,-8333.33,63993.37,PP-006
+TXN-0048,2026-03-15,Mar 2026,Acme Corp,Journal Entry,JE-A-006-6,Oracle,Amortization - Oracle prepaid,-8333.33,55660.04,PP-006
