@@ -162,17 +162,18 @@ Synthetic testing was chosen because reconciliation logic requires deterministic
 ---
 
 ## Running Locally
-
+Requirements: Python 3.10+ installed.
 ```bash
-git clone https://github.com/yourusername/month-end-close-assistant.git
-cd month-end-close-assistant
+git clone https://github.com/sarimareeb-byte/AI-Month-End-Close-Assistant.git
+
+cd AI-Month-End-Close-Assistant
 
 pip install -r requirements.txt
 
 streamlit run app.py
 ```
 
-Upload a prepaid ledger and amortization schedule using the sidebar. Sample test files are included in the `test_cases/` directory.
+Launch the dashboard, upload a prepaid ledger and amortization schedule using the sidebar, then click Run Analysis. Sample datasets are available in the test_cases/ directory.
 
 ---
 
