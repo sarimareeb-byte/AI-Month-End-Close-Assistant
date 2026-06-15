@@ -4,9 +4,6 @@ A prepaid expense reconciliation system that validates ERP exports, reconciles b
 
 Built as a working demonstration of how structured accounting logic, data normalization, and automated exception detection can reduce the manual effort involved in month-end close.
 
-![Executive Dashboard](docs/dashboard.png) <p align="center">
-  <img src="docs/dashboard.png" width="900">
-</p>
 
 ---
 
@@ -21,6 +18,7 @@ Built as a working demonstration of how structured accounting logic, data normal
 - **11 Synthetic Test Cases** -- controlled validation scenarios covering all exception types with predetermined expected results
 - **Real-World Benchmark Validation** -- tested against a production NetSuite dataset; final output matches an independent manual review exactly
 
+![Executive Dashboard](docs/dashboard.png)
 ---
 
 ## The Problem
@@ -157,14 +155,9 @@ Synthetic testing was chosen because reconciliation logic requires deterministic
 
 ## Screenshots
 
-![Investigation Report](docs/investigation_report.png) <p align="center">
-  <img src="docs/dashboard.png" width="900">
-</p>
+![Investigation Report](docs/investigation_report.png)
 
-![Close Review Package](docs/close_package.png) <p align="center">
-  <img src="docs/dashboard.png" width="900">
-</p>
-
+![Close Review Package](docs/close_package.png) 
 ---
 
 ## Running Locally
